@@ -73,9 +73,6 @@ void got_packet(u_char *args, const struct pcap_pkthdr *header,
 
         return;
       }
-      case IPPROTO_UDP:
-        printf("   Protocol: UDP\n");
-        return;
       case IPPROTO_ICMP:
         printf("   Protocol: ICMP\n");
         return;
